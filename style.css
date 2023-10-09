@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html, body {
+	font-family: 'Comfortaa', cursive;
+  height: 100%;
+  width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	background-color: white;
+}
+table {
+	border-radius: 3vmin;
+	border: solid black 5px;
+	margin: 2vmin;
+	table-layout:fixed;
+	background-color: black;
+	cursor: pointer;
+}
+td {
+	background-color: white;
+	width: 9.5vmin;
+	height: 9.5vmin;
+	border-radius: 7vmin;
+	transition-duration: .5s;
+}
+#info {
+	display: block;
+	margin: 2vmin;
+}
+h1{
+	font-size: 5vmin;
+}
+p {
+	font-size: 3vmin;
+}
